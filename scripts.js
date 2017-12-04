@@ -16,7 +16,7 @@ let myArr = [
   },
   {
     name: 'Glenda',
-     department: 'C-suite',
+    department: 'C-suite',
     title: 'CEO'
   }
 ];
