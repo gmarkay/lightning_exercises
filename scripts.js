@@ -1,4 +1,4 @@
-let myArr = [
+let employees = [
   {
     name: 'Bob' ,
     department: 'sales',
@@ -22,7 +22,6 @@ let myArr = [
 ];
 
 
-for (i = 0; i <myArr.length; i++){
-  console.log(`${myArr[i].name}'s job title is ${myArr[i].title}`);
-
+for (i = 0; i <employees.length; i++){
+  console.log(`${employees[i].name}'s job title is ${employees[i].title}`);
 }
