@@ -75,13 +75,9 @@ let ages = [12, 23, 89, 16, 34, 19, 2, 7, 45, 50, 26, 102]
 
 let faveages = [];
 
-// // ages.forEach(({}))
 
 for (i = 0; i < ages.length; i++) {
-  // console
-  if (ages[i] > 17 && ages[i] < 50) {
-    faveages.push(ages[i]);
-  }
+  if (ages[i] > 17 && ages[i] < 50) faveages.push(ages[i])
 }
 console.log(faveages, 'for');
 
@@ -89,8 +85,7 @@ console.log(faveages, 'for');
 
 faveages = [];
 ages.forEach(function (age) {
-  if (age > 17 && age < 50)
-    faveages.push(age);
+  if (age > 17 && age < 50) faveages.push(age);
 });
 console.log(faveages, 'foreach');
 
