@@ -94,16 +94,28 @@
 
 // console.log(faveages, 'filter');
 
-let hitchhikers_guide = {
-  characters: ["Zaphod", "Arthur", "Ford", "Trillian"],
-  catchphrase: "Don't Panic",
-  random_facts: {
-    copies_sold: 14000000,
-    formats: ["radio", "TV", "film", "graphic novel"],
-    ultimate_answer: {
-      meaning_of_life: 42
-    }
-  }
-};
+// let hitchhikers_guide = {
+//   characters: ["Zaphod", "Arthur", "Ford", "Trillian"],
+//   catchphrase: "Don't Panic",
+//   random_facts: {
+//     copies_sold: 14000000,
+//     formats: ["radio", "TV", "film", "graphic novel"],
+//     ultimate_answer: {
+//       meaning_of_life: 42
+//     }
+//   }
+// };
 
-document.write(hitchhikers_guide.random_facts.ultimate_answer.meaning_of_life);
+// document.write(hitchhikers_guide.random_facts.ultimate_answer.meaning_of_life);
+
+// let meaning = 'meaning_of_life';
+
+
+let quote = ['the', 'greatest', 'teacher','failure', 'is'];
+
+let quoteString = quote.join(' ');
+ quoteString = quoteString.charAt(0).toUpperCase() + quoteString.slice(1);
+ quoteString = quoteString.slice(0, 20) + "," + quoteString.slice(20);
+
+console.log(quoteString);
+
